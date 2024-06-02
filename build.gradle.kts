@@ -23,6 +23,15 @@ dependencies {
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     implementation ("org.springframework.boot:spring-boot-starter-data-jpa")
     runtimeOnly ("com.h2database:h2")
+    compileOnly ("org.projectlombok:lombok")
+    annotationProcessor ("org.projectlombok:lombok")
+    // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+    implementation("org.apache.poi:poi-ooxml:3.9")
+    // https://mvnrepository.com/artifact/org.apache.poi/poi
+    implementation("org.apache.poi:poi:3.9")
+
+
+
 }
 
 tasks.withType<Test> {
