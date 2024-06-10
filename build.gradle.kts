@@ -26,11 +26,11 @@ dependencies {
     compileOnly ("org.projectlombok:lombok")
     annotationProcessor ("org.projectlombok:lombok")
     // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
-    implementation("org.apache.poi:poi-ooxml:3.9")
+    implementation("org.apache.poi:poi-ooxml:5.2.3")
     // https://mvnrepository.com/artifact/org.apache.poi/poi
-    implementation("org.apache.poi:poi:3.9")
+    implementation("org.apache.poi:poi:5.2.3")
 
-
+    implementation ("org.apache.commons:commons-csv:1.11.0")
 
 }
 
